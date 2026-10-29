@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background-color: #d7d7d7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #eeeeee;
+}
+
+/* Estrutura geral */
+.pagina {
+    width: 65%;
+    max-width: 1100px;
+    margin: 40px auto;
+    background-color: #fff;
+    display: flex;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Lado esquerdo */
+.apresentacao {
+    flex: 30%;
+    background-color: #235b40;
+    padding: 85px 40px;
+
+}
+
+.apresentacao h1 {
+    color: #32bf7b;
+    font-size: 30px;
+    margin: bottom 60px;
+}
+
+.apresentacao h2 {
+    font-size: 32px;
+    color: #72e3ac;
+    margin-bottom: 15px;
+}
+
+.apresentacao p {
+    line-height: 1.6;
+    text-align: left;
+    color: #cfcfcf;
+}
+
+.beneficios {
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #688674;
+    border-radius: 8px;
+}
+
+.beneficios h3 {
+    color: #a9e59c;
+}
+
+/* Lado direito */
+.area-cadastro {
+    flex: 50%;
+    background-color: #fff;
+    color: #222;
+    padding: 13px;
+}
+
+.area-cadastro h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.area-cadastro p {
+    color: #777777;
+}
+
+/* Formulário */
+form {
+    margin-top: 25px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 14px;
+    margin-bottom: 6px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 25px;
+    background-color: #165047fa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #207b6efa;
+}
+
+.login {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.login a {
+    color: #235b40;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #777777;
+    font-size: 13px;
+}
